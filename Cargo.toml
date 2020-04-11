@@ -1,9 +1,9 @@
 [package]
-name = "rust-wrapper-breadwallet-core"
+name = "rust_wrapper_breadwallet_core"
 version = "0.1.0"
 authors = ["Aidan Curtis <aamcurtis@googlemail.com>"]
 edition = "2018"
-links = "rust-wrapper-breadwallet-core"
+links = "rust_wrapper_breadwallet_core"
 license-file = "LICENSE.md"
 description = "Rust interface for breadwallet-core"
 documentation = "https://github.com/contact-tracer/rust-wrapper-breadwallet-core"
@@ -20,4 +20,4 @@ bindgen = "0.53.1"
 cmake = "0.1"
 
 [lib]
-crate-type = ["staticlib"]
+crate-type = ["rlib"]
